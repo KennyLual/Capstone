@@ -18,7 +18,7 @@
             crossorigin="anonymous"
         />
         <link href="style.css" rel="stylesheet" />
-        <title>Travel</title>
+        <title>Trip Planner</title>
     </head>
     <body>
         <div class="container-fluid">
@@ -52,14 +52,15 @@
                     </li>
                 </ul>
                 <!-- unorder list item for the navbar links -->
-                <span class="material-symbols-outlined">
+                <div class="search">
                     <input
                         class="inputControl"
                         type="search"
                         size="35px"
                         placeholder="Begin looking"
-                    />Search
-                </span>
+                    />
+                    <span class="material-symbols-outlined"> Search </span>
+                </div>
                 <!-- search bar with input and search icon-->
                 <div class="col-md-3 text-end">
                     <button type="button" class="btn btn-outline-primary me-2">
@@ -71,7 +72,6 @@
                 </div>
                 <!-- account login or sign-up buttons-->
             </header>
-            <!-- end of header for navbar items, search bar and account login or sign-up -->
         </div>
     </body>
 </html>

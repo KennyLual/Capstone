@@ -40,4 +40,6 @@ header .material-symbols-outlined {
 header .search {
     display: flex;
     align-items: center;
+    margin-top: none;
+    margin-bottom: 8px;
 }
