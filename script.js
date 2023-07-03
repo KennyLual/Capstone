@@ -9,7 +9,7 @@ function initAutocomplete() {
 }
 autocomplete.addListener("place_changed", onPlaceChanged);
 function onPlaceChanged() {
-    var place = autocomplete.getPlace();
+    let place = autocomplete.getPlace();
 
     if (!place.geometry) {
         // Use did not select a prediction; reset the input field
